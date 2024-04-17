@@ -3,7 +3,7 @@ Trabalho de Probabilidade - UFFS / 2024.1
 Calculadora que usa a formula de disbruição binominal
 
 
-PASSO A PASSO - ATIVAÇÃO DA VENV NO LINUX ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PASSO A PASSO - ATIVAÇÃO DA VENV NO LINUX ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Instalar o virtualenv (caso ainda não tenha instalado):
 Certifique-se de ter o virtualenv instalado. Se não tiver, você pode instalá-lo usando o pip (gerenciador de pacotes do Python). Execute o seguinte comando no seu terminal:
@@ -28,4 +28,4 @@ Substitua nome_do_ambiente pelo nome que você escolheu anteriormente. Usando o 
 
 source myenv/bin/activate
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
