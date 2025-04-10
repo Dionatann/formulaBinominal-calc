@@ -1,35 +1,88 @@
-Trabalho de Probabilidade - UFFS / 2024.1
+rom pathlib import Path
 
-Calculadora que usa a formula de disbruição binominal
+readme_content = """
+# Binomial Distribution Calculator
 
+A simple calculator that uses the **binomial distribution formula**, developed as a Probability course project at **UFFS (Federal University of Fronteira Sul)** – 2024.1.
 
-RODAR COM PYTHON 3.8, (PARA VERSÕES DO PYTHON ACIMA DA 3.10, modifique os requirements.txt para estar compativel) 
+## 🐍 Requirements
 
+- Python 3.12 (recommended for Ubuntu/Linux users)
+- `virtualenv` for creating isolated environments
+- Compatible with modern Linux systems (Ubuntu, Debian-based)
 
+> ⚠️ For older Python versions (e.g., Python 3.8 or 3.10), make sure to adjust the `requirements.txt` accordingly if needed.
 
-PASSO A PASSO - ATIVAÇÃO DA VENV NO LINUX
+---
 
-Instalar o virtualenv (caso ainda não tenha instalado):
-Certifique-se de ter o virtualenv instalado. Se não tiver, você pode instalá-lo usando o pip (gerenciador de pacotes do Python). Execute o seguinte comando no seu terminal:
+## 📦 Setup Instructions (Linux/Ubuntu)
 
+### 1. Install `virtualenv` (if not installed)
+
+Open a terminal and run:
+
+```bash
 pip install virtualenv
 
-Criar o ambiente virtual:
-No terminal, navegue até o diretório onde deseja criar o ambiente virtual e execute o seguinte comando:
+2. Create a Virtual Environment
 
-virtualenv nome_do_ambiente
+Navigate to your project directory and run:
 
-Substitua nome_do_ambiente pelo nome que deseja dar ao seu ambiente virtual. Por exemplo:
+Always show details
 
-virtualenv myenv
+virtualenv venv
 
-Ativar o ambiente virtual:
-Depois de criar o ambiente virtual, você precisa ativá-lo. No terminal, execute:
+You can replace venv with any name you prefer.
+3. Activate the Virtual Environment
 
-source nome_do_ambiente/bin/activate
+Always show details
 
-Substitua nome_do_ambiente pelo nome que você escolheu anteriormente. Usando o exemplo acima, seria:
+source venv/bin/activate
 
-source myenv/bin/activate
+You should now see the environment name in your terminal prompt, indicating it is active.
+🚀 Running the Application
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+After activating the virtual environment:
+
+Always show details
+
+pip install -r requirements.txt
+python manage.py runserver
+
+📁 Project Structure
+
+Always show details
+
+binomial_calculator/
+│
+├── app/                 # Django app containing core logic
+├── templates/           # HTML templates (Tailwind CSS styled)
+├── static/              # Static files
+├── manage.py
+├── requirements.txt
+└── README.md
+
+📚 About the Binomial Distribution
+
+The binomial distribution is a statistical model that describes the probability of achieving a fixed number of successes in a set number of independent trials, each with the same probability of success.
+
+This project was developed to assist in understanding and applying this concept in practice.
+👨‍💻 Author
+
+Dionatan Maicon
+UFFS - Federal University of Fronteira Sul
+2024.1
+
+    📎 GitHub Repository: github.com/Dionatann/formulaBinominal-calc """
+
+Save to README.md
+
+readme_path = Path("/mnt/data/README.md") readme_path.write_text(readme_content.strip())
+
+readme_path.name
+
+Always show details
+
+Result
+
+'README.md'
