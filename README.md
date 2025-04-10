@@ -73,13 +73,6 @@ UFFS - Federal University of Fronteira Sul
 
     📎 GitHub Repository: github.com/Dionatann/formulaBinominal-calc """
 
-Save to README.md
-
-readme_path = Path("/mnt/data/README.md") readme_path.write_text(readme_content.strip())
-
-readme_path.name
-
-Always show details
 
 Result
 
