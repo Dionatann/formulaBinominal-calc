@@ -1,7 +1,7 @@
 
 # Binomial Distribution Calculator
 
-A simple calculator that uses the **binomial distribution formula**, developed as a Probability course project at **UFFS (Federal University of Fronteira Sul)** – 2025.2.
+A simple calculator that uses the **binomial distribution formula**, developed as a Probability course project at **UFFS (Federal University of Fronteira Sul)** – 2025.1.
 
 ## 🐍 Requirements
 
