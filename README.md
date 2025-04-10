@@ -69,11 +69,7 @@ This project was developed to assist in understanding and applying this concept 
 
 Dionatan Maicon
 UFFS - Federal University of Fronteira Sul
-2024.1
+2025.1
 
     📎 GitHub Repository: github.com/Dionatann/formulaBinominal-calc """
 
-
-Result
-
-'README.md'
