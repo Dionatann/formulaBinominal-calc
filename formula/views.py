@@ -28,12 +28,18 @@ def binomial_calc(request):
         proba = binomial_acc(n, x, p)  # chamando a funcao
         distri = binomial(n, x, p)  # chamando a funcao
 
+        print(proba * 100)
+        print(distri* 100 )
+
         print("\n")
         print(" A probabilidade Acumulativa é:  {:.4f}".format(proba))
         print(" Distruibuição Binomial é : {:.4f} \n".format(distri))
         context = {
             'proba': "{:.4f}".format(proba),
             'distribuicao': "{:.4f}".format(distri),
+
+            "proba_percentual": round(proba * 100, 2),
+            "distri_percentual": round(distri * 100, 2)
         }
         return render(request, 'resultado.html', context)
 
