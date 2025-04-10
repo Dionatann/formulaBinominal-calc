@@ -1,9 +1,7 @@
-rom pathlib import Path
 
-readme_content = """
 # Binomial Distribution Calculator
 
-A simple calculator that uses the **binomial distribution formula**, developed as a Probability course project at **UFFS (Federal University of Fronteira Sul)** – 2024.1.
+A simple calculator that uses the **binomial distribution formula**, developed as a Probability course project at **UFFS (Federal University of Fronteira Sul)** – 2025.2.
 
 ## 🐍 Requirements
 
